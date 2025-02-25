@@ -1,4 +1,19 @@
-
+img{
+    max-width: 100%;
+    height: auto;
+}
+body{
+    font-size: 16px;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
+}
 
 .sect {
     display: flex;
@@ -156,4 +171,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+@media (max-width: 768px) {
+.container {
+    width: 100%;
+    padding: 10px;
+
+
+} 
 }
